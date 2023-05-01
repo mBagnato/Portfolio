@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* NAV SECTION */
+
+.navbar {
+    background-color: transparent;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+
+
+.nav-link {
+    color: white;
+    width: 200%;
+    font-size: 25px;
+    font-weight: 200;
+    opacity: 0.5;
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: solid 3px rgb(0, 60, 255);
+    border-style: ridge;
+    opacity: 1;
+    transition: 3s;
+    font-size: 29px;
+    font-weight: 500;
+
+}
+
+.nav-item {
+    padding-right: 30%;
+}
+
+/* NAV SECTION */
+
+/* HEADING FOR MAIN PAGE SECTION*/
+
+.main-background {
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/background-main-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.main-background:hover {
+    background-image: url(img/background-main.jpg);
+    transition: 15s;
+    
+}
+
+.main-heading {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    color: white;
+    opacity: 0.7;
+    
+}
+
+/* HEADING FOR MAIN PAGE SECTION*/
+
+/* ABOUT ME SECTION START*/
+
