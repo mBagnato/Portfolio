@@ -27,9 +27,7 @@
     border-bottom: solid 3px rgb(0, 60, 255);
     border-style: ridge;
     opacity: 1;
-    transition: 3s;
-    font-size: 29px;
-    font-weight: 500;
+    transition: 1s;
 
 }
 
@@ -65,8 +63,72 @@
     
 }
 
-/* HEADING FOR MAIN PAGE SECTION*/
+/* HEADING FOR MAIN PAGE SECTION END*/
+
+/* ABOUT ME SECTION START*/
 
 .about-me {
     height: 100vh;
 }
+
+.about-me-header {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(66, 127, 249);
+    border-bottom: 4px solid black;
+    border-bottom-style: groove;
+    
+    
+}
+
+.intro-about-me-header {
+    color: rgb(38, 99, 210);
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.para-about-me {
+    background-color: rgb(4, 4, 53);
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 90px;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.education-about-heading {
+    color: rgb(0, 102, 255);
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.education-list-about {
+    color: rgb(47, 10, 10);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 35px;
+}
+
+.skills-list, i {
+    font-size: 35px;
+}
+
+.skill-about-header {
+    color: rgb(0,102,255);
+    font-weight: 800;
+}
+
+.about-pic {
+    width: 100%;
+    height: 80%;
+    margin-top: 5%;
+}
+
