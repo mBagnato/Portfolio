@@ -30,13 +30,16 @@
               <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#aboutMe">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Project's</a>
+              <a class="nav-link" href="#projectSection">Project's</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Resume/CV</a>
+              <a class="nav-link" href="#contactSection">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resumeSection">Resume/CV</a>
             </li>
           </ul>
         </div>
@@ -48,9 +51,9 @@
 
     <!--BACKGROUND AND HEADINGS SECTIONS-->
 
-    <div class="main-background"></div>
+    <div class="main-background" id="mainBackground"></div>
 
-    <h1 class="main-heading">Hello Im Matthew <br>An Aspiring<br>Front End Web Developer</h1>
+    <h1 class="main-heading" id="backgroundHeading">Hello Im Matthew <br>An Aspiring<br>Front End Web Developer</h1>
 
      <!--BACKGROUND AND HEADINGS SECTIONS-->
 
@@ -60,13 +63,11 @@
         <div class="container">
 
       <div class="row">
-          <section class="col-lg-6 col-sm-12">
+          <section class="col-lg-6 col-sm-12" id="aboutMe">
                 <h2 class="h2 mt-2 about-me-header">About Me</h2>
 
-                <h4 class="h4 text-center intro-about-me-header">Im Matthew Bagnato, an aspiring front end developer from Melbourne, Australia </h4>
-
-                <p class=" text-center para-about-me">
-                As a front-end developer, I am passionate about creating beautiful and functional websites that provide a
+                <p class=" text-center para-about-me mt-3">
+                Hello im Matthew Bagnato, As an aspiring front-end developer, I am passionate about creating beautiful and functional websites that provide a
                  seamless user experience. I am proficient in HTML, CSS, JavaScript and React.js I take pride in my attention to 
                  detail and ability to translate design concepts into pixel-perfect
                   web pages. With a strong focus on usability and accessibility, I am committed to delivering high-quality 
@@ -80,7 +81,7 @@
               </h2> 
               <ul class="education-list-about">
                 <li>Essedon Keilor Collage Highschool Graduate </li>
-                <li>Colt Steele Web development bootcamo</li>
+                <li>Colt Steele Web development bootcamp</li>
                 <li>Colt Steele React.js bootcamp</li>
               </ul>
             
@@ -91,7 +92,7 @@
               </h2>
               <ul class="skills-list mt-3">
                 <li><i class="fa-brands fa-html5 fa-2xl" style="color: #ffab5c;"></i></li>
-                <li><i class="fa-brands fa-css3-alt fa-2xl"></i></li>
+                <li><i class="fa-brands fa-css3-alt fa-2xl" style="color: #ff0000;"></i></li>
                 <li><i class="fa-brands fa-square-js fa-2xl" style="color: #ecdb22;"></i></li>
                 <li><i class="fa-brands fa-bootstrap fa-2xl" style="color: #785fd3;"></i></li>
                 <li><i class="fa-brands fa-react fa-2xl" style="color: #7eacfb;"></i></li>
@@ -99,9 +100,6 @@
             
             
           </section>
-              
-     
-
 
             <section class="col-lg-6 col-sm-12">
                   <img class="img-fluid about-pic" src="img/coding-kid.jpg" alt="code">
@@ -110,11 +108,134 @@
 
     </div>
             
+        </div>
+    </section>
+
+    <!--START OF PROJECT SECTION-->
+      
+    
+      <section class="project-section" >
+        <div class="container">
+
+          <div class="row">
+            <h1 class="h1 mx-auto text-center white project-header" id="projectSection">Projects</h1>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-10 mx-auto mt-3">
+                <a href="https://github.com/mBagnato/SummitPlumbingAndAir">
+                  <img src="img/summitHeatingAndCooling copy.jpg" class="project-pic" alt=" summit">
+                </a>
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-10 mx-auto mt-3">
+                <a href="https://github.com/mBagnato/Omnifood">
+                  <img src="img/OmnifoodHomepage.jpg" class="project-pic" alt="omni">
+                </a>
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-10 mx-auto mt-4">
+                <a href="https://github.com/mBagnato/cardRacing">
+                  <img src="img/Cardracing.jpg" class="project-pic" alt="card">
+                </a>
+              </div>
+          </div>
+
+          
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+    <!--START OF CONTACT SECTION -->
+
+    <section class="contact-section" id="contactSection">
+
+      <div class="container">
+
+
+          <div class="row">
+            <h1 class="mx-auto text-center white contact-heading-top">Contact</h1>
+          </div>
+
+
+        <div class="row">
+
+          <div class="col-lg-4 mx-auto contact-details-pos">
+
+           
+
+            <h3 class="text-center conName">Name</h3>
+            <p class="text-center conName-anser">Matthew Bagnato</p>
+            <h3 class="text-center conLoca">Location</h3>
+            <p class="text-center conLoca-anser">Melbourne, Australia</p>
+            <h3 class="text-center conEmail">Email</h3>
+            <p class="text-center conEmail-anser">matt-bagnato@hotmail.com</p>
+            <h3 class="text-center conSocial">Social's</h3>
+            <p class="text-center socialAnser">https://github.com/mBagnato</p>
+            <p class="text-center socialAnser">linkedin.com/in/matthew-bagnato-26618226a</p>
+            
+
+          
+            
+
+          </div>
+
+      
+
+      <div class="col-lg-4 mx-auto form-contact-pos">
+
+          <form action="#">
+
+            
+            <div class="row mx-auto">
+              <input type="text" name="name" placeholder="Name" class="formName">
+            </div>
+              
+            <div class="row mt-1 mx-auto">
+              <input type="email" name="email" placeholder="Email" class="formEmail">
+            </div>
+              
+            <div class="row mt-1 mx-auto">
+              <textarea name="Message" placeholder="Message"  rows="8" class="formMessage"></textarea>
+                
+            </div>
+              
+            <div class="row mt-3 mx-auto">
+              <button class="formButton col-3 mx-auto">Submit</button>
+            </div>
+              
+
+
+          </form>
 
 
         </div>
 
         
+
+
+
+
+
+        </div>
+
+        <div class="row" id="resumeSection">
+
+          <a href="#" class="con-but-pos">
+            <button class="mx-auto contact-button">Resume/CV</button>
+          </a>
+          <p class="white mx-auto text-center mx-auto downloadCV">Click To Download Resume/CV</p>
+        </div>
+
+
+      </div>
 
 
     </section>
